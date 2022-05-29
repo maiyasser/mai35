@@ -1,0 +1,186 @@
+@font-face {
+    font-family:PublicSans-Thin_Light;
+    src: url(../font/PublicSans-ExtraLightItalic.ttf);
+}
+@font-face {
+    font-family: PublicSans-Regular;
+    src: url(../font/PublicSans-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:PublicSans-Regular ;
+}
+.all-page{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+.logo-img{
+    width:300px;
+}
+
+.logo{
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 40px;
+     align-items: baseline;
+}
+.icon-log{
+    display: flex;
+}
+.text-logo{
+    font-size: 30px;
+}
+a:hover{
+    background-color: aquamarine;
+    padding:  30px;
+    font-size: 35px;
+}
+a{
+font-size: 25px;
+padding:  20px;
+text-decoration: none;
+}
+.button:hover{
+    background-color: rgb(21, 205, 156);
+    color: aliceblue;
+}
+.button{
+    padding: 20px;
+    text-align: center;
+    color: rgb(250, 247, 247);
+    background-color: #2D314D;
+    border: none;
+    font-size: 25px;
+    border-radius: 20px;
+}
+.all-first-text{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 90px;
+}
+.header{
+    padding: 0 26px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(223, 228, 233);
+}
+.the-header{
+    font-size: 40px;
+    font-family:PublicSans-Thin_Light;
+    margin-bottom: 20px;
+}
+.text-header{
+    margin-bottom: 30px;
+    font-size: 30px;
+    padding-right:  50px;
+}
+.the-quation{
+     display: flex;
+     flex-direction: column;
+    padding-right: 400px;
+}
+.latest-Articles{
+    /* margin: 50px; */
+    padding-left: 60px;
+}
+.all-boxes{
+display: flex;
+}
+/* .boxes:hover{
+    background-color: aquamarine;
+} */
+.boxes{
+    padding:50px 50px;
+}
+.the-icon{
+    display: flex; 
+    justify-content: space-around;
+}
+.fa-money-check-alt{
+    font-size: 50px;
+}
+.fa-praying-hands{
+    font-size: 50px;
+
+}
+.fa-money-check{
+    font-size: 50px;
+
+}
+.fa-folder-open{
+    font-size: 50px;
+}
+.link-footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    background-color: #292b38;
+}
+.link{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.icon-footer{
+    display:flex;
+    flex-direction: column; 
+}
+.sochial{
+    display: flex;
+ padding: auto;
+}
+.a:hover{
+    background-color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+.a{
+    font-size: 30px;
+    color: white;
+}
+.last-text{
+    display: flex;
+    flex-direction: column;
+}
+.fa-facebook{
+    font-size: 50px;
+     color: white;
+
+}
+.fa-circle{
+    font-size: 50px;
+     color: white;
+
+}
+.fa-twitter{
+    font-size: 50px;
+    color: white;
+
+}
+.fa-pinterest-p{
+    font-size: 50px;
+     color: white;
+}
+.fa-square{
+    font-size: 50px;
+    color: white;
+}
+.button-footar{
+    padding: 20px;
+    text-align: center;
+    color: rgb(250, 247, 247);
+    background-color: #2d4d47;
+    border: none;
+    font-size: 25px;
+    border-radius: 20px;
+}
+.button-footar:hover{
+    background-color: rgb(21, 205, 156);
+    color: aliceblue;
+}
+
